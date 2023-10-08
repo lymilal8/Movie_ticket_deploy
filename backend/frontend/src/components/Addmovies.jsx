@@ -61,7 +61,7 @@ const Addmovies = () => {
           }
 
         })
-        .catch(err)
+        .catch(err=>console.log(err))
   }
 
     return (

@@ -2,6 +2,8 @@ const express = require('express');
 const app = express();
 const morgan = require('morgan');
 var cors = require('cors');
+const path = require('path');
+const __dirname=path.resolve();
 
 app.use(morgan('dev'));
 require('dotenv').config();

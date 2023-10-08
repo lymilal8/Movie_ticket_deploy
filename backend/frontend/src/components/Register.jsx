@@ -77,7 +77,7 @@ const Register = () => {
                         alert(response.data.message);
                     }
                 })
-                .catch(err)
+                .catch(err=>console.log(err))
         }
 
     }

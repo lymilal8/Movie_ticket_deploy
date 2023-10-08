@@ -61,7 +61,7 @@ const Addmovie = (props) => {
           }
 
         })
-        .catch(err)
+        .catch(err=>console.log(err));
     }
     if (props.method == "put") {
       axios.put("/api/edit/" + post._id, post)
@@ -75,7 +75,7 @@ const Addmovie = (props) => {
           }
 
         })
-        .catch(err)
+        .catch(err=>console.log(err))
     }
   }
 
